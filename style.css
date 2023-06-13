@@ -1,0 +1,56 @@
+*{
+    marigin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+
+main{
+    background: #FFFFFF;
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%);
+    margin-top: -12rem;
+
+    text-align: center;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #34355B;
+    font-size: 2.4rem;
+}
+
+p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: rgba(52, 53, 91, 0.8);   
+
+    margin-top: 1.6rem;
+    margin-bottom: 4.8rem;
+}
+
+button{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+
+    background: #7879F1;
+    border-radius: 0 .4rem .4rem 0;
+}
