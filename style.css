@@ -46,6 +46,11 @@ p{
     margin-bottom: 4.8rem;
 }
 
+form{
+    display: flex;
+    justify-content: center;
+}
+
 button{
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
@@ -53,4 +58,17 @@ button{
 
     background: #7879F1;
     border-radius: 0 .4rem .4rem 0;
+    
 }
+
+input{
+    background: #DCE2E9;
+    width: 5rem;
+    border-radius: 0 .4rem .4rem 0;
+}
+
+input, button{
+    border: none;
+    padding: 1.6rem;
+}
+
