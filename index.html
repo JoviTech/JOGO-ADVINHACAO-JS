@@ -18,22 +18,24 @@
 <body>
     <main>
 
-        <div class="screen1 hide">
+        <div class="screen1">
             
             <h1>Jodo da Advinhação</h1>
             <p>Adivinhe o número entre 0 e 10</p>
             <form>
                 <input type="number">
-                <button>Tentar</button>
+                <button onclick="handleClick(event)" >Tentar</button>
                 
             </form>
         </div>
         
-        <div class="screen2">
+        <div class="screen2 hide">
             <h2>Acertou em 3 tentativas</h2>
             <button>Jogar novamente</button>
         </div>
 
     </main>
+
+    <script src="./main.js" ></script>
 </body>
 </html>
